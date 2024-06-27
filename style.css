@@ -345,7 +345,7 @@ nav {
 
 #animated-text-strip .marquee {
     white-space: nowrap;
-    animation: marquee 5s linear infinite;
+    animation: marquee 13s linear infinite;
     max-width: none;
 }
 
