@@ -53,3 +53,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.
             }, 'slow');
         });
     });
+
+    document.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+    });
