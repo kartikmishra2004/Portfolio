@@ -54,6 +54,18 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         });
     });
 
-    document.addEventListener("contextmenu", (e) => {
-        e.preventDefault();
-    });
+
+    // Context menu block
+
+    // document.addEventListener("contextmenu", (e) => {
+    //     e.preventDefault();
+    // });
+
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loading-screen");
+    loader.classList.add("loading-screen-hidden");
+    loader.addEventListener("transitionend", () => {
+        document.body.removeChild("loading-screen");
+    })
+})
+
