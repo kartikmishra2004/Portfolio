@@ -29,12 +29,13 @@
 
 .loading-screen::after{
     content: "";
-    width: 40px;
-    height: 40px;
-    border: 10px solid rgb(201, 201, 201);
-    border-top: 10px solid #20a100;
+    width: 35px;
+    height: 35px;
+    border: 10px solid rgb(217, 217, 217);
+    border: 10px solid rgb(255, 44, 44);
+    border-style: dotted;
     border-radius: 50%;
-    animation: loading 0.75s ease infinite;
+    animation: loading 1.4s ease infinite; 
 }
 
 @keyframes loading {
@@ -521,10 +522,10 @@ nav {
     }
 
     .loading-screen::after{
-        width: 30px;
-        height: 30px;
-        border: 7px solid rgb(201, 201, 201);
-        border-top: 7px solid #20a100;
+        width: 25px;
+        height: 25px;
+        border: 10px solid rgb(255, 44, 44);
+        border-style: dotted;
     }
 }
 
