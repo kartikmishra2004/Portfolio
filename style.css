@@ -439,11 +439,13 @@ nav {
     }
 
     .nav-list.active {
-        display: block;
+        display: flex;
         margin: 19px 0;
         position: fixed;
-        height: 41vh;
+        padding-top: 30px;
+        height: 48vh;
         background-color: #ffffff;
+        align-items: center;
         z-index: 1;
         justify-content: center;
     }
