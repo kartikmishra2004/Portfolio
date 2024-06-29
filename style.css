@@ -25,15 +25,14 @@
 .loading-screen-hidden{
     opacity: 0;
     visibility: hidden;
-}
+} 
 
 .loading-screen::after{
     content: "";
     width: 35px;
     height: 35px;
     border: 10px solid rgb(217, 217, 217);
-    border: 10px solid rgb(255, 44, 44);
-    border-style: dotted;
+    border-top: 10px solid rgb(73 73 73);
     border-radius: 50%;
     animation: loading 1.4s ease infinite; 
 }
@@ -652,8 +651,8 @@ nav {
     .loading-screen::after{
         width: 25px;
         height: 25px;
-        border: 10px solid rgb(255, 44, 44);
-        border-style: dotted;
+        border: 7px solid rgb(217, 217, 217);
+        border-top: 7px solid rgb(73 73 73);
     }
 
     .third-section{
