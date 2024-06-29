@@ -69,3 +69,21 @@ window.addEventListener("load", () => {
     })
 })
 
+// navbar hide on scroll down 
+
+let lastScrollY = 0;
+const navbar = document.querySelector("nav");
+window.addEventListener("scroll", () => {
+    const currentScrollY = window.scrollY 
+    if (currentScrollY > lastScrollY){
+        console.log("scroll down");
+        navbar.classList.add("hidden-nav");
+    }
+    else{
+        console.log("scroll up")
+        navbar.classList.remove("hidden-nav");
+
+    }
+    lastScrollY = currentScrollY
+})
+
