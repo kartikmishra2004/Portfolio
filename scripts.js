@@ -54,11 +54,27 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         });
     });
 
-    // Context menu block
-
-    document.addEventListener("contextmenu", (e) => {
-        e.preventDefault();
+    $(document).ready(function() {
+        $('#skills1').click(function() {
+            $('html, body').animate({
+                scrollTop: $('#skills2').offset().top
+            }, 'slow');
+        });
     });
+
+    $(document).ready(function() {
+        $('#projects1').click(function() {
+            $('html, body').animate({
+                scrollTop: $('#projects2').offset().top
+            }, 'slow');
+        });
+    });
+
+    // // Context menu block
+
+    // document.addEventListener("contextmenu", (e) => {
+    //     e.preventDefault();
+    // });
 
 window.addEventListener("load", () => {
     const loader = document.querySelector(".loading-screen");
