@@ -70,11 +70,11 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         });
     });
 
-    // // Context menu block
+    // Context menu block
 
-    // document.addEventListener("contextmenu", (e) => {
-    //     e.preventDefault();
-    // });
+    document.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+    });
 
 window.addEventListener("load", () => {
     const loader = document.querySelector(".loading-screen");
