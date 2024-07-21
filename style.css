@@ -953,7 +953,13 @@ nav {
     padding-top: 10px;
     padding-right: 0;
   }
-
+  .fxratemaster{
+    margin-top: 29vh;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+  }
   @media screen and (max-width: 885px) {
     .plate-pages{
         flex-direction: column;
@@ -1003,5 +1009,13 @@ nav {
     }
     .skills{
         padding-bottom: 5rem;
+    }
+    .fxratemaster{
+        flex-direction: column;
+        padding: 0;
+        margin-top: 15vh;
+    }
+    .line-h-20{
+        line-height: 25px;
     }
   }
